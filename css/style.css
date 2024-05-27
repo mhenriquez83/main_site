@@ -1566,10 +1566,10 @@ menu
 .mil-main-menu ul li a:hover {
   color: rgb(255, 255, 255);
 }
-.mil-main-menu ul li C.mil-active {
+.mil-main-menu ul li a.mil-active {
   padding-left: 25px;
 }
-.mil-main-menu ul li C.mil-active:before {
+.mil-main-menu ul li a.mil-active:before {
   -webkit-transform: scale(1);
           transform: scale(1);
   background-color: rgb(255, 152, 0);
@@ -1651,7 +1651,7 @@ menu
   .mil-main-menu ul li a:before {
     display: none;
   }
-  .mil-main-menu ul li C.mil-active {
+  .mil-main-menu ul li a.mil-active {
     padding-left: 0 !important;
   }
   .mil-main-menu ul li.mil-has-children ul {
@@ -2979,7 +2979,7 @@ blog
 .mil-category-list li a:hover {
   background-color: rgb(229, 229, 229);
 }
-.mil-category-list li C.mil-active {
+.mil-category-list li a.mil-active {
   background-color: rgb(255, 152, 0);
 }
 @media screen and (max-width: 768px) {
